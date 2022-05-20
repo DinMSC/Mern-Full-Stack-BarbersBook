@@ -1,0 +1,57 @@
+#video {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+}
+
+.hero .content {
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    top: 15vh;
+}
+.MainLogo {
+    height: 450px;
+    width: 450px;
+    image-rendering: pixelated;
+    margin-bottom: -6rem;
+}
+
+.hero p {
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 1.8rem;
+    color: #fff;
+}
+ol {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 3.5rem;
+    margin-top: -1.5rem;
+}
+
+.hero .btn {
+    margin: 7rem 0.5rem;
+}
+
+@media screen and (max-width: 640px) {
+    .content h1 {
+        font-size: 3rem;
+    }
+
+    .content p {
+        font-size: 1.4rem;
+        margin-bottom: 1.6rem;
+    }
+}

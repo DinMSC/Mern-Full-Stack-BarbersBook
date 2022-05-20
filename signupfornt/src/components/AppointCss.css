@@ -1,0 +1,58 @@
+.banneryx {
+    font-size: 10px;
+    width: 50%;
+    height: 10%;
+    text-align: center;
+    background-position: center;
+    border-radius: 10px;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.86) 0%,
+        #f1c301 100%
+    );
+}
+.navbaryx {
+    width: 95%;
+    margin: auto;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+}
+.navbaryx ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 20px;
+    position: relative;
+}
+.navbaryx ul li {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0);
+}
+.navbaryx ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #f1c301;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbaryx ul li:hover::after {
+    width: 100%;
+}
+.nexty {
+    float: right;
+    background: #f1c301;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
